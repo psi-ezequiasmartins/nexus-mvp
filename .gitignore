@@ -1,13 +1,18 @@
-# Node modules
+# Node modules (em qualquer nível)
 node_modules/
+
+# Arquivos sensíveis
+.env
+.env.example
+firebaseServiceAccountKey.json
+
+# Arquivos de configuração indevidos na raiz (caso erradamente criados fora do /backend ou /frontend)
+package.json
+yarn.lock
 
 # Builds de frontend e backend
 build/
 dist/
-
-# Variáveis e chaves sensíveis
-.env
-firebaseServiceAccountKey.json
 
 # Temporários e cache
 .temp
@@ -16,7 +21,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Configurações de editores
+# IDEs e editores
 .vscode/
 .idea/
 *.swp
@@ -25,5 +30,5 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
-# Lockfiles alternativos (caso use Yarn, ignore o do NPM)
+# Lockfiles do NPM (se usando Yarn)
 package-lock.json
