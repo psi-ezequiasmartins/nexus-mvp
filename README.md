@@ -114,8 +114,10 @@ git clone https://github.com/psi-ezequiasmartins/nexus-mvp.git
 
 **Ezequias Martins**
 Full Stack Developer | [deliverybairro.com](https://deliverybairro.com)
+
 [github.com/psi-ezequiasmartins](https://github.com/psi-ezequiasmartins)
 
 🧠 **With technical support and scope generation via AI ChatGPT (OpenAI)**
+
 [https://openai.com/chatgpt](https://openai.com/chatgpt)
 
