@@ -1,10 +1,3 @@
-Perfeito! Aqui está a versão **final atualizada** do `README.md`, incluindo:
-
-* Comandos de compactação `.zip`
-* Créditos ao suporte com **IA ChatGPT (OpenAI)**
-
----
-
 ````markdown
 # 📡 Nexus | Plataforma de Atendimento Inteligente
 
@@ -119,13 +112,6 @@ git clone https://github.com/psi-ezequiasmartins/nexus-mvp.git
 ## 👨‍💻 Desenvolvido por
 
 ```
-
-**Ezequias Martins**
-Full Stack Developer | [deliverybairro.com](https://deliverybairro.com)
-[github.com/psi-ezequiasmartins](https://github.com/psi-ezequiasmartins)
-
-🧠 **Com suporte técnico e geração de escopo via IA ChatGPT (OpenAI)**
-[https://openai.com/chatgpt](https://openai.com/chatgpt)
 
 ---
 
