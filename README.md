@@ -1,4 +1,3 @@
-````markdown
 # 📡 Nexus | Plataforma de Atendimento Inteligente
 
 Sistema completo de atendimento ao cliente, com autenticação segura via Firebase Auth, interface React e backend Node.js + MySQL. Permite abertura, listagem e resposta de tickets, com controle de sessão e histórico.
@@ -110,8 +109,6 @@ git clone https://github.com/psi-ezequiasmartins/nexus-mvp.git
 ---
 
 ## 👨‍💻 Desenvolvido por
-
-```
 
 ---
 
