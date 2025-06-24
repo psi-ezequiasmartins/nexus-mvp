@@ -1,11 +1,3 @@
-Perfeito! Aqui está a versão **final atualizada** do `README.md`, incluindo:
-
-* Comandos de compactação `.zip`
-* Créditos ao suporte com **IA ChatGPT (OpenAI)**
-
----
-
-````markdown
 # 📡 Nexus | Plataforma de Atendimento Inteligente
 
 Sistema completo de atendimento ao cliente, com autenticação segura via Firebase Auth, interface React e backend Node.js + MySQL. Permite abertura, listagem e resposta de tickets, com controle de sessão e histórico.
@@ -118,21 +110,14 @@ git clone https://github.com/psi-ezequiasmartins/nexus-mvp.git
 
 ## 👨‍💻 Desenvolvido por
 
-```
-
-**Ezequias Martins**
-Full Stack Developer | [deliverybairro.com](https://deliverybairro.com)
-[github.com/psi-ezequiasmartins](https://github.com/psi-ezequiasmartins)
-
-🧠 **Com suporte técnico e geração de escopo via IA ChatGPT (OpenAI)**
-[https://openai.com/chatgpt](https://openai.com/chatgpt)
-
 ---
 
 **Ezequias Martins**
 Full Stack Developer | [deliverybairro.com](https://deliverybairro.com)
+
 [github.com/psi-ezequiasmartins](https://github.com/psi-ezequiasmartins)
 
 🧠 **With technical support and scope generation via AI ChatGPT (OpenAI)**
+
 [https://openai.com/chatgpt](https://openai.com/chatgpt)
 
