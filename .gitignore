@@ -1,5 +1,29 @@
+# Node modules
 node_modules/
-firebaseServiceAccountKey.json
+
+# Builds de frontend e backend
+build/
+dist/
+
+# Variáveis e chaves sensíveis
 .env
+firebaseServiceAccountKey.json
+
+# Temporários e cache
 .temp
-.vscode
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Configurações de editores
+.vscode/
+.idea/
+*.swp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Lockfiles alternativos (caso use Yarn, ignore o do NPM)
+package-lock.json
