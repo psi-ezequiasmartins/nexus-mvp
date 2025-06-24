@@ -2,7 +2,7 @@
  * authMiddleware.js
  */
 
-const jwt = require('jsonwebtoken');
+const { verificarToken } = require('../utils/jwt');
 const admin = require('../config/firebase');
 require('dotenv').config();
 
@@ -15,14 +15,12 @@ async function authenticate(req, res, next) {
   const token = authHeader.split(' ')[1];
 
   try {
-    // Verifica JWT local
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    const decoded = verificarToken(token);
+    if (!decoded) throw new Error('Token inválido');
 
-    // Verifica se o uid é válido no Firebase
     const firebaseUser = await admin.auth().getUser(decoded.uid);
     if (!firebaseUser) throw new Error('Usuário não encontrado no Firebase');
 
-    // Injeta os dados do usuário no request
     req.user = {
       id: decoded.id,
       uid: decoded.uid,
