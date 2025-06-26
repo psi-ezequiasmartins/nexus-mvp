@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "psi-nexus-app",
+  "private_key_id": "beee897b39e51b01e9c31ce08e0197aa1ab68cb9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCg6Z/nKLBteDn2\n9PtZWGYMf1uflt4cG6RpK7THFuISNVqoasHWR35BEeN+3gPTd64oPKAh4bk/ZPE7\nSn5NEwR/b9OrnKOgfuKOHCB06LINkMWCjSVlpZAZNO+kbK5HO2nm+AA4S2pgrw6X\n6/1KC3Y6568B/Ton/BvEi4TP3E5iQkUrW9Sa98EpHlwKDxGPYn/OId4omeLsXdFX\nYNQrL+vuw2BEt3dBMonEaUhlJaQVA+5MxikHOU7W1/f6dnFHC9W5nTRKW44z98bx\ntcdGFM2k+Gcpr0Kjg8wo4L7GOw95EASDtISLQwoYTtTvX09ueK37u+0u+Lt39BI9\ndOyyctwBAgMBAAECggEAAyuVKZuL7c00Bac+FjybTpjaAhT5qWe7Q5HvjupW0AVm\ndMndKarJDFDFGNZYkJOTniHzJPW+tca4KLsTDdNPh+/45XE5qU9kqOh5lHoS63jg\nJk4/986lLhT0mXqFbLx5PbpiPTmxpeffB4vYBrve84JF6LnvqdLiDGtUBZkdX3rP\nJN9wNAIaq6T3W0l29/D2WySNs1Ei5olfqIrNL/aUQdb6QcKLI3IUQk6B/wUGP8tr\nHXEx21mzuYciymaFG+POe9SRzx5XIBgJyz8W5nEtAd9+L/22ES6rclucjQ6bGtnn\naawvzGbe3dJ6dTCnMwgMDeDNZ/ANMWcQtuXgtqOb0QKBgQDN1WdyXDDDBKog5tzu\nFHlT31N1v3LPSFty/RZzB2+lb/uNtI658jvuYWPi7wo64NL3ZxH/k3HWKA5fALI1\n3L6PtlqIikQKv+CbUKWnJxRCapWGASP816ojOM8KtpyuHnEI/HfWsxIAXPndVq5d\nwpMgurGsgvUa9V2RK7P781vk8QKBgQDIIXWgYBl/lhiOm3fHYQBI/swPSmRCzmvV\nMX4ea3u6+xjYU+aWhkx0B1TkFi3L5wUNxnPTsVqupw7UKd8YbTSzd1j/dMUyWbnI\nuWLfd6ZOIJldv2VUg5J02ZqWcthUM9h9V0LuI8wEbVUJHBVG1xUbQ+sntGMREq1I\nHK1gasMoEQKBgCpowNKoOgfEa0UyK+0F3OWyCuEk3APnVahAiyKSMqe0hfDxdcLM\nLRr1h/4W4FW3QuBkpSmyeG72e9eJLi64166GlOqzCkfott9pY2goPh1dFoewrniG\n+vAc4VPEwk2Byipe0lYzOQ9IGNdI5847q9K/hKIVrWiri2bAyWms/48RAoGAJADQ\n9m8TZz6LYGxbmgS7VmZwM3gAnXwhLhNfSv2vHq45hAFkBERY0K7Y+Md8qaf/4sCG\n6diIJc9r/YMi3XQX/QlFe394UlyN7axcOzN9OaTnslPSWOfqmxbilppGjK9fDP17\nzvelpk489AyXT002QNdxII11HQctIUH3dtb+EOECgYEAxsttbwikAsMBmK1Om4Vf\n2aGrsnnH1ee1/EbU4mqFwedyPa1ledkhATRihbj8uNJuMwocgRCsSuQ8E8HNRPyU\n01/pJJha5gZoBDUh78Gh5cEa5u8j6dLIxdSw3hEjuJpmJ3VtoqR95b1FkpnmMoxn\n7lmIzH7jYoH/W0oazxpxBKA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@psi-nexus-app.iam.gserviceaccount.com",
+  "client_id": "106271922761214915987",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40psi-nexus-app.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

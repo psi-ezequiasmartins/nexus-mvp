@@ -3,7 +3,7 @@
  */
 
 const admin = require('firebase-admin');
-const serviceAccount = require('../path/para/seu-firebase-adminsdk.json');
+const serviceAccount = require('./admin-sdk.json'); // caminho relativo
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
