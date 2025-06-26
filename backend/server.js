@@ -1,4 +1,6 @@
+require('dotenv').config();
 const express = require('express');
+const uploadRouter = require('./routes/upload');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const authRoutes = require('./routes/authRoutes');
@@ -16,6 +18,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/tickets', ticketRoutes);
 app.use('/api/messages', messageRoutes);
 app.use('/api/files', fileRoutes);
+app.use('/api/upload', uploadRouter);
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
