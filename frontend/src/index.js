@@ -1,5 +1,5 @@
 /**
- * index.js
+ * index.js (frontend\src\index.js)
  */
 
 import React from 'react';

@@ -112,9 +112,12 @@ git clone https://github.com/psi-ezequiasmartins/nexus-mvp.git
 
 **Ezequias Martins**
 Consultoria Web/SEO & Full Stack Developer 
-- [deliverybairro.com](https://deliverybairro.com)
-- [institutoandersoncosta.org](https://psi-org-six.vercel.app)
-- [guiadebh.online](https://guiadebh-online.vercel.app)
+
+<ul>
+    <li>[deliverybairro.com](https://deliverybairro.com)</li>
+    <li>[institutoandersoncosta.org](https://psi-org-six.vercel.app)</li>
+    <li>[guiadebh.online](https://guiadebh-online.vercel.app)</li>
+</ul>
 
 - [github.com/psi-ezequiasmartins](https://github.com/psi-ezequiasmartins)
 
