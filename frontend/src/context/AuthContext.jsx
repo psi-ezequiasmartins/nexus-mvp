@@ -1,30 +1,43 @@
 /**
- * AuthContext.jsx
+ * frontend/src/context/AuthContext.jsx
+ * Controle global de autenticação Firebase
  */
 
 import { createContext, useContext, useEffect, useState } from 'react';
-import { onAuthStateChanged, signOut } from 'firebase/auth';
+import { onAuthStateChanged, signInWithEmailAndPassword, signOut } from 'firebase/auth';
 import { auth } from '../firebase';
 
-const AuthContext = createContext();
+export const AuthContext = createContext(null);
 
-export const useAuth = () => useContext(AuthContext);
+export function useAuth() {
+  return useContext(AuthContext);
+}
 
-export const AuthProvider = ({ children }) => {
+export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() =>
-    onAuthStateChanged(auth, (currentUser) => {
+  useEffect(() => {
+    const unsub = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
       setLoading(false);
-    }), []);
+    });
+    return unsub; // limpa listener
+  }, []);
 
-  const logout = () => signOut(auth);
+  async function login(email, senha) {
+    return signInWithEmailAndPassword(auth, email, senha);
+  }
+
+  function logout() {
+    return signOut(auth);
+  }
+
+  const value = { user, login, logout, loading };
 
   return (
-    <AuthContext.Provider value={{ user, logout }}>
+    <AuthContext.Provider value={value}>
       {!loading && children}
     </AuthContext.Provider>
   );
-};
+}
