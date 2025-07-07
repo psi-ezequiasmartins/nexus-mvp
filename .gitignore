@@ -4,6 +4,7 @@ node_modules/
 .env.*.local
 *.env.local
 firebase/admin-sdk.json
+firebase/firebaseServiceAccountKey.json
 
 # Build folders
 build/
@@ -30,3 +31,4 @@ Thumbs.db
 # package.json
 # yarn.lock
 # package-lock.json
+backend/config/firebaseServiceAccountKey.json
